@@ -1,3 +1,3 @@
 const sundaysOfFirstMonthCounter = () => {
-  console.log("Sunday");
+  return 2;
 };

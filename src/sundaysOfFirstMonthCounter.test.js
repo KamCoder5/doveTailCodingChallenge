@@ -1,5 +1,5 @@
 const sundaysOfFirstMonthCounter = require("./sundaysOfFirstMonthCounter");
 
-test("adds 1 + 2 to equal 3", () => {
+test("Number of Sundays should be a number", () => {
   expect(typeof sundaysOfFirstMonthCounter()).toBe("number");
 });

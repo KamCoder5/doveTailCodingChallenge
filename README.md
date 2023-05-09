@@ -4,7 +4,7 @@
 
 The task is to write a script in Python to find out how many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000).
 
-## JavaScript Solution
+## JavaScript Solution and instillation
 
 To run the JavaScript solution, first install Node.js by following these steps:
 
@@ -29,7 +29,7 @@ node sundaysOfFirstMonthCounter.js
 
 ```
 
-## Installation
+## Installation for Jest Testing
 
 First, ensure that you have Jest installed in your project. You can install Jest by running the following command:
 
@@ -65,7 +65,7 @@ python3 <filename>
 
 Replace `<filename>` with the name of the Python file containing the solution code (e.g. `sundaysOfFirstMonthCounter.py`).
 
-## Running the Python Tests
+## Running the Python Tests and Instillation
 
 To run the tests in the terminal, follow the steps below:
 

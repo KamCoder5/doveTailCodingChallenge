@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const dayOfFirstMonthCounter = (dayOfTheWeek, fromYearDate, toYearDate) => {
   const daysOfTheWeek = {
     sunday: 0,
@@ -39,4 +41,10 @@ const dayOfFirstMonthCounter = (dayOfTheWeek, fromYearDate, toYearDate) => {
 
 dayOfFirstMonthCounter("Friday", 1901, 2000);
 
-module.exports = dayOfFirstMonthCounter;
+dayOfFirstMonthCounter.propTypes = {
+  dayOfTheWeek: PropTypes.string.isRequired,
+  fromYearDate: PropTypes.number.isRequired,
+  toYearDate: PropTypes.number.isRequired,
+};
+
+export default dayOfFirstMonthCounter;

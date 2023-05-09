@@ -3,7 +3,7 @@ const sundaysOfFirstMonthCounter = () => {
   for (let year = 1901; year <= 2000; year++) {
     for (let month = 0; month < 12; month++) {
       const firstDay = new Date(year, month, 1);
-      if (firstDay.getDay() === 6) {
+      if (firstDay.getDay() === 0) {
         sundayCount++;
       }
     }
@@ -17,4 +17,5 @@ const sundaysOfFirstMonthCounter = () => {
   return sundayCount;
 };
 
+sundaysOfFirstMonthCounter();
 module.exports = sundaysOfFirstMonthCounter;

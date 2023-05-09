@@ -1,5 +1,10 @@
 const sundaysOfFirstMonthCounter = require("./sundaysOfFirstMonthCounter");
 
-test("Number of Sundays should be a number", () => {
-  expect(typeof sundaysOfFirstMonthCounter()).toBe("number");
+test("returns a number", () => {
+  const result = sundaysOfFirstMonthCounter();
+  expect(typeof result).toBe("number");
+});
+
+test("Number of Sundays should be a 171", () => {
+  expect(sundaysOfFirstMonthCounter()).toBe(171);
 });
